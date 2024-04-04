@@ -14,6 +14,7 @@ def leaky_relu(x, alpha=0.01):
 
 def tanh(x):
     """
+    bug fix here
     Apply the Tanh activation function.
     """
     return np.tanh(x)
